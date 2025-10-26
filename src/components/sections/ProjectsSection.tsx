@@ -11,34 +11,14 @@ const ProjectsSection = () => {
 
   const projects = [
     {
-      title: "Event Management System",
-      description: "A comprehensive event planning and management platform built with Django and MySQL. Features include participant registration, event scheduling, and real-time updates.",
-      tech: ["Python", "Django", "MySQL", "HTML/CSS"],
+      title: "Yasmin Brownie & Cakes – Bakery Website",
+      description: "Built a responsive website using HTML, CSS, and JavaScript with an integrated WhatsApp ordering system, SEO optimization, and user-friendly design.",
+      tech: ["HTML", "CSS", "JavaScript"],
       category: "Web Development",
       status: "Completed",
-      achievements: ["Managed 500+ participants", "Real-time notifications", "Admin dashboard"],
+      achievements: [], // ["Managed 500+ participants", "Real-time notifications", "Admin dashboard"],
       icon: Calendar,
       color: "neon-cyan"
-    },
-    {
-      title: "Quiz Competition Platform",
-      description: "Interactive quiz platform for technical competitions with real-time scoring, timer functionality, and leaderboard system.",
-      tech: ["Python", "Django", "JavaScript", "MySQL"],
-      category: "Educational",
-      status: "In Progress",
-      achievements: ["Multi-round support", "Auto-grading system", "Live leaderboard"],
-      icon: Users,
-      color: "neon-purple"
-    },
-    {
-      title: "Video Editing Portfolio",
-      description: "Collection of video editing projects showcasing creative storytelling and technical proficiency in post-production workflows.",
-      tech: ["Adobe Premiere", "After Effects", "Creative Suite"],
-      category: "Creative",
-      status: "Ongoing",
-      achievements: ["10+ projects completed", "Multi-format output", "Color grading"],
-      icon: Code,
-      color: "neon-pink"
     },
   ];
 
