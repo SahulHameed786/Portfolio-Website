@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { Code, Heart, Target, Zap } from 'lucide-react';
-import profileImage from '@/assets/sahul-profile.jpg';
+import profileImage from '@/assets/sahul_image.jpg';
 
 const AboutSection = () => {
   const ref = useRef(null);
