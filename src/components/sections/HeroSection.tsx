@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { Download, MessageCircle, Github, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import heroImage from '@/assets/hero-bg.jpg';
+import remume form '@/assets/sahul_final_resume.pdf';
 
 interface HeroSectionProps {
   setCurrentSection: (section: string) => void;
@@ -12,7 +13,7 @@ const HeroSection = ({ setCurrentSection }: HeroSectionProps) => {
     // Create a dummy resume download
     const link = document.createElement('a');
     link.href = '#';
-    link.download = 'Sahul_Hameed_Resume.pdf';
+    link.download = remume;
     link.click();
   };
 
